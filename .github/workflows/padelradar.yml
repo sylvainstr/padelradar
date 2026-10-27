@@ -3,7 +3,7 @@ name: PadelRadar
 on:
   schedule:
     # Toutes les 30 min de 6h à 23h (heure de Paris, cron en UTC)
-    - cron: "*/30 5-21 * * *"
+    - cron: "7,37 5-21 * * *"
   workflow_dispatch:
 
 permissions:
